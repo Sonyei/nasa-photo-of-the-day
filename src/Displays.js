@@ -9,9 +9,9 @@ const displayHeader = props => {
         <div className="Header">
             <img src = {imgInfo} alt='Space'></img>
             <h1>{title}</h1>
-            <p className='date'>{date}</p>
+            <p className='date'>Date: {date}</p>
             <p>{imageDesc}</p>
-            <p>{copyright}</p>
+            <p className='copyright'>Copyright: {copyright}</p>
 
             <button>Close</button>
         </div>
